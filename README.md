@@ -8,8 +8,7 @@ The first scripts "b_mu" :
 
 	- extract the simulated events informations of the root file produced with madgraph through the root Class "Analyzetw" and "root_simu".
 	
-	- compute the sum of the matrix elements of the vertex of interest in the case of SM and SME with the information extracted from the root file by calling function defined in "matrixSingleTop" and average the value of the ration SME/SM over the number of selected events. The matrix elements should be taking into account the nature of mother and daughter particles.
-This means it should be able to give right results if the mother particle isn't a top but a charm quark.
+	- compute the sum of the matrix elements of the vertex of interest in the case of SM and SME with the information extracted from the root file by calling function defined in "matrixSingleTop" and average the value of the ration SME/SM over the number of selected events. The matrix elements should be taking into account the nature of mother and daughter particles. This means it should be able to give right results if the mother particle isn't a top but a charm quark.
 
 	- Integrate the temporal modulation due to the change of referential from SMC to sun-centered on the four components of the averaged ratio SME/SM while assuming the CPT-violation factor "b_mu" = 1.
 	
