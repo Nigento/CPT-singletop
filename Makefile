@@ -69,7 +69,14 @@ all: $(EXECUTABLE)
 	"**   Woaaa quel codeur... <3   **\n"\
 	"**  Atom > Vim > All > Emacs  **\n"\
 	"*********************************\n"
-#	mv ./$(SOURCES_DIR)/*.o ./$(BUILDS_DIR)/
+	#mv ./$(SOURCES_DIR)/*.o ./$(BUILDS_DIR)/
+	mkdir results
+	mkdir data
+	mkdir results/modulation/
+	mkdir results/graph/
+	mkdir results/histo/
+	mkdir results/matrix_elements
+	
 
 clean:
 	rm -f ./$(BUILDS_DIR)/*.o
